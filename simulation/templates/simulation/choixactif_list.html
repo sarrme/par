@@ -1,0 +1,20 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <h1>List des entreprises</h1>
+
+    {% if choixactif_list %}
+    <ul>
+
+      {% for actif in choixactif_list %}
+      <li>
+        <a href="{{ actif.get_absolute_url }}">{{ actif.nom_entreprise }}</a> 
+		</li>
+		<hr>
+      {% endfor %}
+
+    </ul>
+    {% else %}
+      <p>On a pas encore ajouter d'entreprise.</p>
+    {% endif %}       
+{% endblock %}

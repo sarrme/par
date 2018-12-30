@@ -1,0 +1,65 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+    <h2>Changer les paramètres</h2>
+    <div id='bob' class="papi">
+    <form action="" method="post">
+        {% csrf_token %}
+        <table>
+        {{ form }}
+        </table>
+        <input class="papa" type="submit" value="Submit" />
+    </form>
+    </div>
+    <div id='name' class='mami'>
+
+
+   <header class="animated-header">
+  <div class="loading">Veuillez attendre...</div>
+  <div class="earth">
+    <img src="https://cssanimation.rocks/images/random/earth.png">
+  </div>
+  <div class="moon">
+    <img src="https://cssanimation.rocks/images/random/moon.png">
+  </div>
+</header>
+    </div>
+    <script>
+var div1=document.getElementById('bob');
+var div2=document.getElementById('name');
+html=document.querySelector('body');
+load=document.querySelector('.loader');
+document.body.classList.add('js-loading');
+window.onload= function(){
+div1.setAttribute('class','dadi');
+div2.setAttribute('class','mami');
+div2.style.backgroundColor='transparent';
+html.style.overflow='scroll';
+div2.style.visibility='hidden';
+}
+
+var btn= document.querySelector('.papa');
+var list=document.querySelectorAll('tr');
+var i=0;
+var valid=document.querySelector('select');
+
+btn.onclick=function(){
+i++;
+if((list.length===3 || i>0)&&(valid.validity.valid)){
+div1.setAttribute('class','mami');
+div2.setAttribute('class','dadi');
+div2.style.backgroundColor='white';
+html.style.overflow='hidden';
+div2.style.visibility='visible';
+document.body.classList.remove('js-loading');
+}
+}
+
+
+
+function showPage() {
+  document.body.classList.remove('js-loading');
+}
+</script>
+{% endblock %}

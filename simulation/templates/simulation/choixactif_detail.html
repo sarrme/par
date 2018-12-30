@@ -1,0 +1,10 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Entreprise: {{ choixactif.nom_entreprise }}</h1>
+  <article>
+ <h2>Description</h2>
+ <a href="http://www.{{ choixactif.nom_entreprise }}.com" title='entreprise {{ choixactif.nom_entreprise }}'><img src='{{choixactif.logo.url}}'></a>
+  <span>{{ choixactif.decription_entreprise |escape|linebreaks}}</span>
+</article>
+{% endblock %}

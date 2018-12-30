@@ -1,0 +1,55 @@
+{% extends "base_generic.html" %}
+{% block content %}
+<head>
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/simulation.css' %}" type="text/css" />
+</head>
+  <h1>Simulation</h1>
+  {% if user.is_authenticated %}
+  <h2><a href="{% url 'tolearn' %}">Changer les paramètres </a></h2>
+  {% endif %}
+  <p>
+ <img src="{{simulation.imagefirst.url}}" alt="Portefeuille avec plusieurs actifs" title="Portefeuille avec plusieurs actifs">
+ <hr>
+ <img src="{{simulation.imagesecond.url}}" alt="Comparaison de la composition d'un portefeuille" title="Comparaison de la composition d'un portefeuille">
+ </p>
+ <hr>
+<h4>Entreprises:</h4> <p><ul>{%for actif in simulation.actifs.all %}<li><a href="{% url 'entreprises' actif.pk %}"> {{actif.nom_entreprise}}</a> </li>{%endfor%}</ul></p>
+<hr>
+
+{% load i18n %}
+{% language 'fr' %}
+<h4>date de début:</h4>
+<p> {{simulation.date_debut}}</p>
+{% endlanguage %}
+<hr>
+{% load i18n %}
+{% language 'fr' %}
+<h4>date fin:</h4>
+<p> {{simulation.date_fin}}</p>
+{% endlanguage %}
+{% if user.is_authenticated %}
+<hr>
+<div style="margin-left:20px;margin-top:20px">
+<h4>Commentaires:</h4>
+<br>
+{% for comment in simulation.commentaire_set.all %}
+<p>
+{% load i18n %}
+{% language 'fr' %}
+<em>Auteur: {{comment.auteur}} _(date: {{comment.date}} )</em> - {{comment.description}}
+{% endlanguage %}
+</p>
+{%endfor%}
+{% endif %} 
+<hr>
+{% if user.is_authenticated %}
+<p><a href="{% url 'blog-comment' 1 %}">Ajouter un commentaire</a> </p>
+{% else %}
+  <p><a href="{% url 'login'%}?next={{request.path}}">Se connecter</a></p>
+  <br>
+  <p><em> pour voir et ajouter des commentaires et changer les paramètres de la simulation.</em></p>
+{% endif %} 
+</div>
+
+{% endblock %}
