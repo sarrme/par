@@ -44,6 +44,15 @@
 
 <p>After all this step, the site is working, to specify new variables for your simulation, connect to the website by clicking at "se connecter" then go to simulation and click in "changer paramètres", use new variables and you will be redirected after the calculation process to the result of your simulation.</p>
 <p> I will leave you with some photos of the website</p>
+<img src="1.PNG"/>
+<img src="2.PNG"/>
+<img src="3.PNG"/>
+<img src="4.PNG"/>
+<img src="5.PNG"/>
+<img src="6.PNG"/>
+<img src="7.PNG"/>
+<img src="8.PNG"/>
+<img src="9.PNG"/>
 <p>That is all, thanks for reading all of my rumbling, best wishes,</p>
 <p><b>SARROUKH Issame</b></p>
 
