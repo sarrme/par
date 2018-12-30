@@ -37,7 +37,7 @@
 </p>
 
 <ul>
-  <li>Go to the admin page by typing in your browser "localhost:8000/admin", The admin page show something like that <img src="https://github.com/sarrme/project_par/blob/master/admin%20page.PNG"></img></li>
+  <li>Go to the admin page by typing in your browser "localhost:8000/admin", The admin page show something like that <img src="https://github.com/sarrme/par/blob/master/admin%20page.PNG"></img></li>
   <br/>
   <li>Double clique on <b>choix actifs</b> in the admin page. You have to specify companies, you can not specify what ever you want, it is not possible because it required changing things in the code, if want want to know how to do it, feel free to contact me by clicking <a href="mailto:sarroukh.issame@gmail.com?&subject=Questions&body=Mettre%20your%20questions%20here">this link</a></li>
 </ul>
