@@ -33,7 +33,7 @@
 </p>
 
 <p>
-  With command prompt go to the folder and open it, write the command "python manage.py makemigrations" if you are using Linux, with windows write "python manage.py makemigrations", do the same thing this time with migrate instead of makemigrations. Now create a user by typing on the command prompt "py manage.py createsuperuser", it will ask you to enter a username, a mail adresse, and a password and to confirm the password, after this step you can run the server locally, type "python manage.py runserver", the web page is running locally.
+  With command prompt go to the folder and open it, write the command "python manage.py makemigrations" if you are using Linux, with windows write "py manage.py makemigrations", do the same thing this time with migrate instead of makemigrations. Now create a user by typing on the command prompt "py manage.py createsuperuser", it will ask you to enter a username, a mail adresse, and a password and to confirm the password, after this step you can run the server locally, type "python manage.py runserver", the web page is running locally.
 </p>
 
 <ul>
