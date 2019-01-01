@@ -52,6 +52,6 @@
 <img src="7.PNG"/>
 <img src="8.PNG"/>
 <img src="9.PNG"/>
-<p>That is all, thanks for reading all of my rumbling, best wishes,</p>
+<p>That is all, thanks for reading all of this, best wishes,</p>
 <p><b>SARROUKH Issame</b></p>
 
