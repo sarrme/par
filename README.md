@@ -8,7 +8,7 @@
   </p>
   
   <p>
-  To install the web page locally, you must install python and make sure that pip is registered as a local variable. When you finish the installation, go to the command prompt and write "pip install <b>name of the library</b>". The libraries are 
+  To install the web page locally, you must install python 3 and make sure that pip is registered as a local variable. When you finish the installation, go to the command prompt and write "pip install <b>name of the library</b>". The libraries are 
   </p>
 
 <ul>
