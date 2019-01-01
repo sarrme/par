@@ -42,7 +42,7 @@
   <li>Double clique on <b>choix actifs</b> in the admin page. You have to specify companies, you can not specify what ever you want, it is not possible because it required changing things in the code, if want want to know how to do it, feel free to contact me by clicking <a href="mailto:sarroukh.issame@gmail.com?&subject=Questions&body=Put%20your%20questions%20here">this link</a>. The images can be used directly from the folder, you can find them at to media/logos. You have to create a simulation by clicking two times on simulations and clicking afterwards on add simulation. You can specify what ever you want for the images and the dates, this step is necessary for the web site to work properly. If you want real images that I have used, go to simulation/first and simulation/second and add those two photos.</li>
 </ul>
 
-<p>After all this step, the site is working, to specify new variables for your simulation, connect to the website by clicking at "se connecter" then go to simulation and click in "changer paramètres", use new variables and you will be redirected after the calculation process to the result of your simulation.</p>
+<p>After all these steps, the site is working, to specify new variables for your simulation, connect to the website by clicking at "se connecter" then go to simulation and click in "changer paramètres", use new variables and you will be redirected after the calculation process to the result of your simulation.</p>
 <p> I will leave you with some photos of the website</p>
 <img src="1.PNG"/>
 <img src="2.PNG"/>
