@@ -1,7 +1,7 @@
 <h2>Project_par</h2>
 
 
-  <p>This project is based on the <b>theory of Markowitz</b>, it gives you the possibility to simulate the portfolio and to know in which companies you have to invest depending on your preference. The application uses the data extracted from Google Finance.</p>
+  <p>This project is based on <b>Markowitz's theory</b>, it gives you the opportunity to simulate the portfolio and know which companies you should invest in according to your preferences. The app uses data extracted from Google Finance.</p>
   <p>
   
 the site collects the data and then processes it. These data are of the Data Frame form, making it easier to remove the missing data, and to calculate the mean and the variance.
