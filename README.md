@@ -35,7 +35,8 @@ The two graphs returned by the website are respectively Effective Frontier witho
 </ul>
 
 <p>
- Now that you finished this first step, clone the repository by using git Bash command prompt, write on it "git clone <b>the name of the repository</b>". 
+ 
+Now that you've completed this first step, clone the repository using the git Bash command prompt, write on it "git clone <b>the name of the repository</b>". 
 </p>
 
 <p>
