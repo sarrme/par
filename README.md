@@ -4,7 +4,7 @@
   <p>This project is based on <b>Markowitz's theory</b>, it gives you the opportunity to simulate the portfolio and know which companies you should invest in according to your preferences. The app uses data extracted from Google Finance.</p>
   <p>
   
-the site collects the data and then processes it. These data are of the Data Frame form, making it easier to remove the missing data, and to calculate the mean and the variance.
+the site collects the data and then processes it. This data is in the form of a data block, which facilitates the elimination of missing data and the calculation of mean and variance. 
   </p>
   <p>
   The two graphs that are being returned by the website are respectively Efficient frontier with no risk-free asset and the ratios to invest in each company based on your preference, if you want to minimize the risk which is equivalent to minimizing the variance, you have to choose the ratios with the blue color, otherwise, if you want to maximize the profit and accept more risk, you have to choose the ratios with the red color.
