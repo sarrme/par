@@ -44,7 +44,7 @@ Now that you've completed this first step, clone the repository using the git Ba
 </p>
 
 <ul>
-  <li>Go to the admin page by typing in your browser "localhost:8000/admin", The admin page show something like that <img src="https://github.com/sarrme/par/blob/master/admin%20page.PNG"></img></li>
+  <li>Go to the admin page by typing in your browser "localhost:8000/admin", The admin page displays something like this <img src="https://github.com/sarrme/par/blob/master/admin%20page.PNG"></img></li>
   <br/>
   <li>Double click on <b>choix actifs</b> in the admin page. You have to specify companies by clicking on <b>add choix actif</b>, the list of companies that you can choose from is <b>AMAZON, APPLE, EXXON, FORD, GOOGLE, WALMART</b>, the name of the company must be writting <b>Nom d'entreprise</b> with uppercases, and without white spaces, you can not specify what ever you want, it is not possible because it required changing things in the code, if want want to know how to do it, feel free to contact me by clicking <a href="mailto:sarroukh.issame@gmail.com?&subject=Questions&body=Put%20your%20questions%20here">this link</a>. The images can be used directly from the folder, you can find them at media/logos. You have to create a simulation by clicking two times on simulations and clicking afterwards on add simulation. You can specify what ever you want for the images and the dates, this step is necessary for the web site to work properly. If you want real images that I have used, go to simulation/first and simulation/second and add those two photos.</li>
 </ul>
