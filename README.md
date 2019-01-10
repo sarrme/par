@@ -49,8 +49,8 @@ Now that you've completed this first step, clone the repository using the git Ba
   <li>Double click on <b>choix actifs</b> in the admin page. You have to specify companies by clicking on <b>add choix actif</b>, the list of companies that you can choose from is <b>AMAZON, APPLE, EXXON, FORD, GOOGLE, WALMART</b>, the name of the company must be writting <b>Nom d'entreprise</b> with capital letters, and without spaces, you can not specify what ever you want, it is not possible because you will have to modify the code, if you want to know how to proceed, do not hesitate to contact me by clicking on <a href="mailto:sarroukh.issame@gmail.com?&subject=Questions&body=Put%20your%20questions%20here">this link</a>. Images can be used directly from the folder, you can find them on media / logos. You have to create a simulation by double clicking on <b>simulations</b> and  then clicking on <b>add simulation</b>. You can specify what ever you want for images and dates, this step is necessary for the website to work properly. If you want real pictures that I used, go to simulation/first and simulation/second and add those two pictures.</li>
 </ul>
 
-<p>After all these steps, the site is working, to specify new variables for your simulation, connect to the website by clicking aon "se connecter" then go to simulation and click in "changer paramètres", use new variables and you will be redirected, after the calculation process, to the result of your simulation.</p>
-<p> I will leave you with some photos of the website</p>
+<p>After all these steps, the site works, to specify new variables for your simulation, connect to the site by clicking on "se connecter" then on simulation and click on "changer paramètres", use new variables, after the calculation, you will be redirected to the result of your simulation.</p>
+<p> I will leave you with some pictures of the website</p>
 <img src="1.PNG"/>
 <img src="2.PNG"/>
 <img src="3.PNG"/>
@@ -59,6 +59,6 @@ Now that you've completed this first step, clone the repository using the git Ba
 <img src="7.PNG"/>
 <img src="8.PNG"/>
 <img src="9.PNG"/>
-<p>That is all, thanks for reading all of this, best wishes,</p>
+<p>That's all, thank you for reading all this, best wishes,</p>
 <p><b>SARROUKH Issame</b></p>
 
