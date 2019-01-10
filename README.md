@@ -14,7 +14,7 @@ The two graphs returned by the website are respectively Effective Frontier witho
   </p>
   
   <p>
-  To install the web page locally, you must install python 3 and make sure that pip is registered as a local variable. When you finish the installation, go to the command prompt and write "pip install <b>name of the library</b>". The libraries are 
+  To install the web page locally, you must install Python 3 and make sure pip is registered as a local variable. When you have completed the installation, go to the command prompt and write "pip install <b>name of the library</b>". Libraries are:
   </p>
 
 <ul>
