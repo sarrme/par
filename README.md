@@ -50,7 +50,7 @@ Now that you've completed this first step, clone the repository using the git Ba
 </ul>
 
 <p>After all these steps, the site works, to specify new variables for your simulation, connect to the site by clicking on "se connecter" then on simulation and click on "changer paramètres", use new variables, after the calculation, you will be redirected to the result of your simulation.</p>
-<p> I will leave you with some pictures of the website</p>
+<p> I will leave you with some screenshots of the website</p>
 <img src="1.PNG"/>
 <img src="2.PNG"/>
 <img src="3.PNG"/>
