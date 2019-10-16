@@ -4,7 +4,7 @@
   <p>This project is based on <b>Markowitz's theory</b>, it gives you the opportunity to simulate the portfolio and know which companies you should invest in according to your preferences. The app uses data extracted from IEX website.</p>
   <p>
   
-The site collects the data and then processes it. This data is in the form of a data block, which facilitates the elimination of missing data and the calculation of mean and variance. 
+The site collects the data and then processes it. This data is in the form of a dataframe, which facilitates the elimination of missing data and the calculation of mean and variance. 
   </p>
   <p>
   
