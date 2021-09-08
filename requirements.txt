@@ -11,4 +11,4 @@ pbr==3.1.1
 plotly==2.4.1
 scipy==1.0.0
 whitenoise==3.3.1
-pillow==5.1.0
+pillow==8.3.2
